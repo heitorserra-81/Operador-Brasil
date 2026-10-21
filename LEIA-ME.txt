@@ -1,0 +1,13 @@
+OPERADOR BRASIL — PROTÓTIPO PWA LOCAL
+
+1. Publique TODO o conteúdo desta pasta na raiz de um repositório no GitHub Pages (ou qualquer hospedagem HTTPS). A página inicial é index.html.
+2. Abra o link no celular. iPhone: Compartilhar > Adicionar à Tela de Início. Android/Chrome: Instalar app (quando oferecido).
+3. Área inicial: Operador. No seletor superior, alterne para Empresa ou Administração. Senha de TESTE para as duas áreas: 1234.
+4. Todos os registros são gravados localmente em localStorage no navegador/dispositivo. A demonstração começa com cadastros, vagas e empresas fictícios. NÃO existe sincronização entre aparelhos nem envio real de contato. Recomenda-se exportar backup JSON antes de limpar o navegador.
+5. A área Administração > Dados e ajustes permite exportar/importar backup e restaurar os dados iniciais.
+6. Não há Firebase/Supabase nesta versão. A senha 1234 é apenas uma trava de demonstração e NÃO deve ser usada como segurança de produção. Para usuários reais, permissões por organização e autenticação segura, será preciso backend.
+7. PWA offline: depois da primeira visita com internet e instalação, os arquivos essenciais são armazenados pelo Service Worker. Fontes externas podem usar o fallback do sistema sem conexão.
+8. Recomendação: criar repositório público e ativar Settings > Pages > Deploy from a branch > main / (root). Aguardar a URL https://USUARIO.github.io/REPOSITORIO/ .
+9. A foto de Kayky D. foi recortada do print disponibilizado, por isso a definição é baixa. Substitua assets/kayky.jpg se tiver uma foto de maior qualidade e autorização de uso.
+
+PROTÓTIPO DESENVOLVIDO POR HEITOR SERRA NETO
